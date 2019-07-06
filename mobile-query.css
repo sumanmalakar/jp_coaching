@@ -1,0 +1,38 @@
+@media (max-width: 480px){
+    .h3{
+        display:none; 
+    }
+    .img{
+        width:300px;
+        text-align:center;
+    }
+}
+.img-thumbnail{
+    display:
+}
+
+
+@media (max-width: 816px){
+
+    .h3{
+        display:none;
+       }
+}
+
+
+
+@media only screen and (max-width: 380px ), (max-height :650px){
+    .h3{
+     display:none;
+    }
+    .img{
+     width:300px;
+     text-align:center;
+ }
+}
+
+
+
+
+
+
