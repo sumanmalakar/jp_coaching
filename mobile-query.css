@@ -18,7 +18,7 @@
 
     }
     .cg{
-        font-size:0.4em;
+        font-size:0.3em;
     }
     .row .col .b{
         height:70px;
@@ -27,12 +27,10 @@
         height:42vh;
     }
     .slider{
-        height:250px;
+        height:220px;
     }
 }
-.edu{
-    opacity:0.3;
-}
+
 
 
 @media (max-width: 816px){
