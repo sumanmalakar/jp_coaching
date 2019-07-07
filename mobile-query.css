@@ -6,7 +6,28 @@
         width:300px;
         text-align:center;
     }
+
+    .p{
+        height: 200px;
+    }
+    .con1{
+        /* display: none; */
+
+    }
+    .cg{
+        font-size:0.4em;
+    }
+    .row .col .b{
+        height:70px;
+    }
+    .con2{
+        height:42vh;
+    }
+    .slider{
+        height:250px;
+    }
 }
+
 
 
 @media (max-width: 816px){

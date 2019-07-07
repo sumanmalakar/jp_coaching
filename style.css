@@ -20,7 +20,7 @@ background-size: cover;
     margin:0;
     width:400px;
 }
-   .h3{
+  .h3{
     float: right;
     margin-right: 10px;
     margin-top:35px;
@@ -34,7 +34,7 @@ background-size: cover;
     width:100%;
     position:sticky; 
     top:0px;
-    z-index: 2;
+    z-index: 200;
 }
 
   .nav-link{
@@ -42,36 +42,53 @@ background-size: cover;
 }
 .nav-link:hover{
     color:white;
-    background:#2196F3;
+    /* background:#2196F3; */
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
 .nav-bar.fa-bars{
     font-size:45px;
     color:white;
 }
 .drop{
-    background-color:#9C27B0;
+    /* background-color:#9C27B0; */
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
 .dropdown-item{
     color:white;
 }
 .dropdown-item:hover{
-    background-color:black;
+    /* background-color:black; */
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     color:white;
 }
 .con1{
-    margin-top:10px;
+    margin-top:50px;
     /* background-color:white; */
 }
 
 .cg{
   color: #fff;
   text-align: center;
-  font-size:0.7em;
+  font-size:0.9em;
 }
-.row .col-3 .b{
+.row .col .b{
     width:200px;
-    height:156px;
+    height:215px;
     border-radius:50%;
-    border:2px solid blue;
+    border:3px solid blueviolet;
 }
+.con2{
+    margin-top:5%;
+    padding-top:10px;
+    height:75vh;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+.slider{
+    height:450px;
+}
+
  
