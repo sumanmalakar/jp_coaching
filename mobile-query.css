@@ -30,7 +30,9 @@
         height:250px;
     }
 }
-
+.edu{
+    opacity:0.3;
+}
 
 
 @media (max-width: 816px){
