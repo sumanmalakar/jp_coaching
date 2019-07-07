@@ -76,19 +76,63 @@ background-size: cover;
     height:215px;
     border-radius:50%;
     border:3px solid blueviolet;
-}
+}  
+
+
+/* ----slider---- */
+
 .con2{
     margin-top:5%;
     padding-top:10px;
-    height:75vh;
-    background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    height:87vh;
+   
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover;
-  
+    background-size: cover; */
+/* 
+    background-color: #77aa77;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; */
 }
 .slider{
-    height:450px;
+    height:550px;
+    border-radius:2%;
 }
 
- 
+/* ---ducation--- */
+
+.con3{
+    margin-top:5%;
+    height:500px;
+    border-radius: 20px;
+
+    /* border:2px solid yellow; */
+    /* background-image: url(img/senan.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+    overflow:auto;   /* for scroll inside the div */
+}
+.edu{
+    
+    padding-top:3%;
+    padding-bottom:3%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color:lightgray;
+    opacity: 0.6;
+}
+.con3 .edu li{
+    
+    padding:30px;
+    font-size:1em;
+    color:black;
+    font-weight: bold;  
+    font-family: 'Sanchez', serif; 
+}
+/* .con4{
+    height: 500px;
+    background: #330000;
+    margin-top:5%;
+} */

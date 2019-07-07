@@ -10,6 +10,9 @@
     .p{
         height: 200px;
     }
+    .overlay{
+        display: none;
+    }
     .con1{
         /* display: none; */
 
