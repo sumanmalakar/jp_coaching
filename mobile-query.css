@@ -3,32 +3,45 @@
         display:none; 
     }
     .img{
-        width:300px;
+        width:200px;
         text-align:center;
     }
-
-    .p{
+    /* .p{
         height: 200px;
-    }
+    } */
     .overlay{
         display: none;
     }
     .con1{
         /* display: none; */
-
+         margin-top:20px;
     }
     .cg{
         font-size:0.3em;
     }
     .row .col .b{
-        height:70px;
+        height:60px;
+       
     }
     .con2{
-        height:42vh;
+        height:50vh;
+        padding-top:10px;
+        /* background-color: black; */
     }
     .slider{
-        height:220px;
+        height:250px;
+        height: 45vh;
     }
+    .con3{
+        margin-top:15px;
+        height:50vh;
+       
+    }
+    .con3 .edu li{
+        padding:20px;
+        font-size:0.6em;
+    }
+   
 }
 
 
