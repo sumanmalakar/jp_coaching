@@ -96,31 +96,30 @@ background-attachment: fixed;
 background-size: cover; */
 }
 .slider{
-    height:580px;
+    height:95vh;
     border-radius:2%;
 }
 
 /* ---ducation--- */
 
 .con3{
-    /* margin-top:100px; */
-    /* padding-top:200px; */
+    margin-top:100px;
     height:100vh;
     border-radius: 20px;
+    overflow:auto;   /* for scroll inside the div */
 
     /* border:2px solid yellow; */
     /* background-image: url(img/senan.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center; */
-    overflow:auto;   /* for scroll inside the div */
+   
 }
 .edu{
-    
     padding-top:3%;
     padding-bottom:3%;
     border-radius: 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color:lightgray;
     opacity: 0.6;
 }
